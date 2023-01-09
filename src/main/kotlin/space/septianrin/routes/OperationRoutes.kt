@@ -21,7 +21,7 @@ fun Route.operationRouting() {
             )
         }
     }
-    route("/substract") {
+    route("/subtract") {
         post {
             val operationNumber = call.receive<OperationNumber>().numberList
             var result = operationNumber[0]
