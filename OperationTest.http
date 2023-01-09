@@ -1,0 +1,62 @@
+POST http://127.0.0.1:8080/add
+Content-Type: application/json
+
+{
+  "numberList": [1,2,3,4,5,6,7]
+}
+
+###
+POST http://127.0.0.1:8080/add
+Content-Type: application/json
+
+{
+"numberList": ["as","sd","df","fg","5","6","7"]
+}
+
+###
+POST http://127.0.0.1:8080/substract
+Content-Type: application/json
+
+{
+  "numberList": [20,3,2,1]
+}
+
+###
+POST http://127.0.0.1:8080/multiply
+Content-Type: application/json
+
+{
+"numberList": [20,3,2,1]
+}
+
+###
+POST http://127.0.0.1:8080/divide
+Content-Type: application/json
+
+{
+  "numberList": [20,2]
+}
+
+###
+POST http://127.0.0.1:8080/divide
+Content-Type: application/json
+
+{
+  "numberList": [20]
+}
+
+###
+POST http://127.0.0.1:8080/spliteq
+Content-Type: application/json
+
+{
+  "numberList": [20,5]
+}
+
+###
+POST http://127.0.0.1:8080/splitnum
+Content-Type: application/json
+
+{
+  "numberList": [140,45,35,20,50]
+}
